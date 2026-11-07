@@ -495,7 +495,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/thor/proprietary/vendor/etc/displayconfig/display_id_4630947134992368257.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947134992368257.xml \
     vendor/xiaomi/thor/proprietary/vendor/etc/init/hw/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.batterysecret.rc \
     vendor/xiaomi/thor/proprietary/vendor/etc/init/init.vl53l5.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vl53l5.rc \
-    vendor/xiaomi/thor/proprietary/vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider@2.7-service_64.rc \
     vendor/xiaomi/thor/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/xiaomi/thor/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/xiaomi/thor/proprietary/vendor/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_dri_0.json \
@@ -847,22 +846,6 @@ PRODUCT_PACKAGES += \
     com.xiaomi.plugin.supermoon \
     com.xiaomi.plugin.swjpegencode \
     com.xiaomi.plugin.tsskinbeautifier \
-    camx.device@3.2-impl \
-    camx.device@3.3-impl \
-    camx.device@3.4-ext-impl \
-    camx.device@3.4-impl \
-    camx.device@3.5-ext-impl \
-    camx.device@3.5-impl \
-    camx.device@3.6-ext-impl \
-    camx.device@3.6-impl \
-    camx.device@3.7-impl \
-    camx.provider@2.4-external \
-    camx.provider@2.4-impl \
-    camx.provider@2.4-legacy \
-    camx.provider@2.5-external \
-    camx.provider@2.5-legacy \
-    camx.provider@2.6-legacy \
-    camx.provider@2.7-legacy \
     com.qti.chiusecaseselector \
     com.qti.feature2.anchorsync \
     com.qti.feature2.demux \
@@ -946,7 +929,6 @@ PRODUCT_PACKAGES += \
     libcamxfdengine \
     libcamxhwnodecontext \
     libcamxifestriping \
-    libcamximageformatutils \
     libcamxqsatalgo \
     libcamxsettingsmanager \
     libcamxstatscore \
@@ -1061,7 +1043,6 @@ PRODUCT_PACKAGES += \
     libxmi_slow_motion_mein \
     libxmi_slow_motion_triger \
     vendor.qti.hardware.camera.aon@1.0-service-impl \
-    vendor.qti.hardware.camera.postproc@1.0-service-impl \
     vendor.xiaomi.hardware.bgservice@1.0-impl \
     vendor.xiaomi.hardware.bgservice@1.0 \
     vendor.xiaomi.hardware.campostproc@1.0-service-impl \
@@ -1158,5 +1139,4 @@ PRODUCT_PACKAGES += \
     vendor_lib_rfsa_adsp_misound_res_spk4ch_bin \
     vendor.xiaomi.hardware.quickcamera@1.0-service.xml \
     batterysecret \
-    vendor.qti.camera.provider@2.7-service_64 \
     vendor.xiaomi.hardware.quickcamera@1.0-service
